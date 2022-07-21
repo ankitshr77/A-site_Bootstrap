@@ -1,0 +1,453 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------NAVIGATION BAR------------------------------------------------------------ */
+
+.navbar-brand{
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.navbar-nav a{
+  font-size: 19px;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+}
+
+.getstarted{
+  margin-right: 20px;
+}
+
+.fa-bars{
+  color: white;
+  font-size: 30px;
+}
+
+.getstarted{
+  border: solid;
+  border-color: #47B2E4;
+  border-radius: 10px;
+  outline-offset: 2px;
+  padding: 3px;
+}
+
+.navbar-expand-lg{
+  background-color: #37517E;
+}
+
+
+/* ----------COVER--------------------------------------------------------------------- */
+
+.coverfirstcol{
+   margin-left: 60px;
+}
+
+.coverh1{
+  margin-right: 100px;
+  margin-left: 40px;
+  margin-top: 80px;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+
+.coverh3{
+  font-size: 25px;
+  color: #AFB9CB;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.hellomainpage{
+  background-color: #37517E;
+}
+
+.coverbtn1{
+  background-color: #47B2E4 !important;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin-left: 60px;
+  margin-top: 80px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.fa-play-circle{
+  color: white;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.fa-play-circle:hover{
+  color: #47B2E4;
+}
+
+.heroimage{
+  position: relative;
+  animation-name: heroanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heroanimation {
+  from{
+    margin-bottom: 20px;
+  } to {
+    margin-top: 20px;
+  }
+}
+
+/* ------------BRANDS BAR ----------------------------------------------------------- */
+
+.brandbar{
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.brandbar img{
+  padding: 0px 50px;
+  margin: 20px 0;
+}
+
+/* ----------------------ABOUT US SECTION---------------------------------------------- */
+
+.aboutusmain{
+  color: #37517E;
+  font-size: 35px;
+  font-weight: 750;
+  text-align: center;
+  margin-top: 45px;
+  
+}
+
+.aboutushr{
+  width: 120px;
+  margin-bottom: 20px;
+  margin-left: 570px;
+}
+
+.aboutusbtn{
+  padding: 5px 40px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: solid;
+  color: #4BB4E5;
+  border-color: #4BB4E5;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 80px;
+}
+
+/* -------------------FAQS SECTION ------------------------------------------------- */
+
+.faqp{
+  font-size: 18px;
+  color: rgb(141, 128, 128);
+}
+
+.faqh1{
+  color: #37517E;
+}
+
+.faqbox{
+  margin-bottom: 80px;
+}
+
+.faqsimage{
+  height: 400px;
+  width: 800px;
+  margin-top: 70px;  
+  margin-bottom: 70px;  
+
+}
+
+/* -----------------SKILLS SECTION -------------------------------------------------- */
+
+.skillsimg{
+  height: 380px;
+  width: 620px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.skillsh1{
+  color: #37517E;
+}
+
+.skillsp{
+  color: rgb(151, 129, 129);
+}
+
+.htmlspan{
+  margin-left: 500px;
+}
+
+.cssspan{
+  margin-left: 520px;
+}
+
+.jsspan{
+  margin-left: 470px;
+}
+
+.psspan{
+  margin-left: 470px;
+}
+
+/* ----------------SERVICES SECTION --------------------------------------------------- */
+
+.serviceshr{
+  width: 120px;
+  margin-bottom: 20px;
+  margin-left: 570px;
+}
+
+.serviceicon{
+  font-size: 40px;
+  color: skyblue;
+  margin-bottom: 20px;
+}
+
+.servicecard{
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.card-text{
+  color: rgb(153, 130, 130);
+}
+
+/* -------------------------CALL TO ACTION SECTION---------------------------------- */
+
+.ctacontainer{
+  background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url('./images/cta-bg.jpg');
+  padding: 100px;
+  margin-bottom: 80px;
+
+}
+
+.ctah1{
+  color: white;
+  font-weight: 700;
+}
+
+.ctap{
+  color: white;
+  font-size: 20px;
+}
+
+.ctabtn{
+  color: white;
+  border-color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: solid;
+  background-color: #5183BE;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+/* -----------------------------PORTFOLIO SECTION ------------------------------------- */
+
+.portext{
+  font-size: 18px;
+  text-align: center;
+}
+
+.portfoliohr{
+  width: 120px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+}
+
+/* -------------------------------TEAM SECTION -------------------------------------- */
+
+.teamphoto{
+  border-radius: 100px;
+  margin-top: 60px;
+}
+
+.teamhr{
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: 590px;
+}
+
+.teamp{
+  font-size: 18px;
+}
+
+.teambox1{
+  margin-left: 80px;
+}
+
+.teambox2{
+  margin-left: 30px;
+}
+
+.teammainname{
+  color: #37517E;
+  font-weight: 700;
+}
+
+
+/* ----------------PRICING SECTION ------------------------------------------------ */
+
+.pricep{
+  text-align: center;
+  margin: 0 60px;
+  font-size: 18px;
+}
+
+.pricebox{
+  height: 500px;
+  width: 300px;
+  
+}
+
+.pricebox1{
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.pricebox2{
+  margin-right: 40px;
+}
+
+.zero{
+  font-size: 60px;
+  color: #37517E;
+}
+
+.freeplan{
+  color: #37517E;
+}
+
+.permonth{
+  color: #62BDE8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.priceicon{
+  font-size: 20px;
+  color: rgb(172, 152, 152);
+}
+
+.pricespan{
+  font-size: 18px;
+  color: rgb(172, 152, 152);
+}
+
+.pricebutton{
+  padding: 8px 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: solid;
+  border-color: skyblue;
+  background-color: white;
+}
+
+.pricebutton:hover{
+  background-color: skyblue;
+}
+
+.pricebuttonhero{
+  background-color: #47B2E4;
+  border: none;
+  color: white;
+}
+
+/* -------------FAQS SECTION -------------------------------------------------------- */
+
+.faqs{
+  margin-left: 100px;
+  margin-bottom: 40px;
+  border-style: dotted;
+}
+
+/* ----------------CONTACT SECTION ------------------------------------------------ */
+
+.contactbox1{
+  margin-top: 30px;
+  border-top-color: #47B2E4;
+  border-bottom-color: #47B2E4;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 3px;
+  padding-top: 20px;
+   
+}
+.contactbox2{
+  margin-top: 30px;
+  border-top-color: #47B2E4;
+  border-bottom-color: #47B2E4;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 3px;
+  padding-top: 20px;
+   
+}
+
+.locationspan{
+  color: #37517E;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.contactbox1location{
+  display: flex;
+}
+
+.contactusbtn{
+  border-radius: 50px;
+  font-size: 18px;
+  width: 180px;
+  height: 50px;
+  margin-left: 190px;
+  margin-top: 30px;
+  
+}
+
+/* --------------------------NEWSLETTER SECTION -------------------------------- */
+
+.newsletterctnr{
+  background-color: #F3F5FA;
+}
+
+.newsletterbtn{
+  border-radius: 50px;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  background-color: #47B2E4;
+  color: white;
+  border: none;
+  margin-right: 40px;
+}
+
+.newslettersearch{
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+}
+
+/* --------------------------FOOTER SECTION -------------------------------------- */
+
+.footerphone{
+  font-weight: bold;
+}
+
+.finalfooter{
+  height: 60px;
+  background-color: #37517E;
+}
